@@ -1,0 +1,129 @@
+
+header {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+}
+
+.content1, .content2, .content3, footer {
+  align-content: center;
+}
+
+.logo {
+  display: flex;
+  margin: 10px;
+  flex-grow: 1;
+}
+
+nav a {
+  padding-left: 20px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav {
+    margin: 25px;
+}
+
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.content1 {
+  margin-top: 69px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission {
+  display: flex;
+  background-image: url(./resources/img-mission-background.jpg);
+  height: 700px;
+  background-repeat: no-repeat;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.missiontext {
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.content2 {
+  width: 100%;
+  align-items: center;
+}
+
+.teaofthemonth {
+  text-align: center;
+  justify-content: center;
+}
+
+.photos1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+  margin-top: 30px;
+
+}
+
+.photos2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  width: 1000px;
+}
+
+.photos1 img, .photos2 img {
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.content3 {
+  background-image: url(./resources/img-locations-background.jpg);
+  height: 500px;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  padding-top: 15px;
+  width: 1000px;
+}
+
+.locationboxes {
+  background: black;
+  width: 300px;
+  margin: 20px;
+}
+
+#copy {
+  text-align: left;
+  text-size: 20px;
+}
