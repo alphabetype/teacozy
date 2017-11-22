@@ -11,6 +11,7 @@ header {
 
 .content1, .content2, .content3, footer {
   align-content: center;
+  text-align: center;
 }
 
 .logo {
@@ -72,8 +73,8 @@ body {
 }
 
 .teaofthemonth {
+  display; flex;
   text-align: center;
-  justify-content: center;
 }
 
 .photos1 {
@@ -125,5 +126,5 @@ body {
 
 #copy {
   text-align: left;
-  text-size: 20px;
+  font-size: 14px;
 }
